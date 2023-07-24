@@ -7,7 +7,7 @@ import { Form } from './form.model';
   providedIn: 'root'
 })
 export class FormService {
-  private messagesUrl = 'http://localhost:3000/form';
+  private messagesUrl = 'https://uastwl-backend.vercel.app/form';
 
   constructor(private http: HttpClient) { }
 

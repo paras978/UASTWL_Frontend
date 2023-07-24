@@ -3,7 +3,7 @@
     <div class="product-list">
         <div class="product" *ngFor="let product of products">
             <div class="product-image">
-                <img [src]="'http://localhost:3000' + product.path" alt="Product Image">
+                <img [src]="'https://uastwl-backend.vercel.app' + product.path" alt="Product Image">
             </div>
             <div class="product-details">
                 <h3>{{ product.name }}</h3>
